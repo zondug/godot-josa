@@ -1,0 +1,13 @@
+godot-josa
+Copyright 2026 zondug
+
+This product is a GDScript (Godot 4) port of the Korean particle (josa)
+selection algorithm from josa-moa (https://github.com/josa-moa/josa-moa),
+licensed under the Apache License, Version 2.0.
+
+Changes from the original:
+- Rewritten from Java to GDScript as a single static class (Josa.gd).
+- Added a marker-substitution API (Josa.apply) for runtime-formatted
+  translation templates ("%s{이가}" style).
+- Added the ㄹ-batchim exception for the 으로/로 pair, digit rules by
+  Korean numeral pronunciation, and Latin-letter rules by spoken names.
