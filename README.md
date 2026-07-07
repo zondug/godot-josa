@@ -12,8 +12,8 @@ Port of [josa-moa](https://github.com/josa-moa/josa-moa)'s algorithm (Java, Apac
 
 ## 설치 / Install
 
-`Josa.gd`를 프로젝트의 아무 스크립트 폴더에 복사.
-`class_name Josa` + static 함수라 어디서든 바로 호출 가능.
+**Godot Asset Library**에서 설치하거나, `addons/josa/Josa.gd` 파일 하나를 프로젝트에 복사.
+`class_name Josa` + static 함수라 어디서든 바로 호출 가능(오토로드·활성화 불필요).
 
 ## 사용법 / Usage
 
